@@ -6,7 +6,7 @@ root to: "api/v1/composers#index"
     namespace :v1 do
       resources :composers do
         resources :albums
-        resources :songs
+        resources :songs 
       end
     end
   end
