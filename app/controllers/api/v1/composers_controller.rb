@@ -1,4 +1,4 @@
-class ComposersController < ApplicationController
+class Api::V1::ComposersController < ApplicationController
   before_action :set_composer, only: %i[ show update destroy ]
 
   # GET /composers
